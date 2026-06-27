@@ -440,3 +440,30 @@ transform:scale(1.05);
 letter-spacing:3px;
 
 }
+/* ======================
+STATISTICS
+======================*/
+
+.stats{
+    padding:100px 8%;
+    background:#1565c0;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+    text-align:center;
+    color:white;
+}
+
+.stat{
+    padding:35px;
+}
+
+.stat h2{
+    font-size:52px;
+    margin-bottom:10px;
+}
+
+.stat p{
+    font-size:20px;
+    opacity:.9;
+}
