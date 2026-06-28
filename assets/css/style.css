@@ -178,44 +178,32 @@ repeat(auto-fit,minmax(260px,1fr));
 gap:35px;
 
 }
-
 .card{
-
-background:white;
-
+background:#fff;
 padding:40px;
-
-border-radius:20px;
-
-box-shadow:
-
-0 10px 30px rgba(0,0,0,.08);
-
+border-radius:22px;
+box-shadow:0 15px 40px rgba(0,0,0,.10);
 text-align:center;
-
 transition:.35s;
-
+border:1px solid #f1f1f1;
 }
 
 .card:hover{
-
 transform:translateY(-12px);
-
+box-shadow:0 25px 55px rgba(21,101,255,.20);
 }
-
-.card{
-
-font-size:18px;
-
-}
-
 .card h3{
-
-margin:20px 0;
-
-font-size:24px;
-
+    margin:20px 0 15px;
+    font-size:24px;
+    color:#1565ff;
+    font-weight:700;
 }
+.card p{
+    color:#666;
+    line-height:1.8;
+    font-size:16px;
+}
+
 /* ===========================
 ABOUT
 =========================== */
