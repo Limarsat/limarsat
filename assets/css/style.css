@@ -113,33 +113,23 @@ HERO
 =========================== */
 
 .hero{
-
-height:100vh;
-
 background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url("../images/hero.jpg");
 
-linear-gradient(
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
 
-135deg,
-
-#1565c0,
-
-#1976d2,
-
-#42a5f5
-
-);
+height:85vh;
 
 display:flex;
-
 justify-content:center;
-
 align-items:center;
 
 text-align:center;
-
+color:white;
 padding:20px;
-
 }
 
 .hero-content{
