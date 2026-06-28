@@ -598,3 +598,27 @@ transform:scale(1.08);
     }
 
 }
+.whatsapp{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    width:65px;
+    height:65px;
+    background:#25D366;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+    z-index:99999;
+}
+
+.whatsapp img{
+    width:36px;
+    height:36px;
+}
+
+.whatsapp:hover{
+    transform:scale(1.1);
+    transition:.3s;
+}
