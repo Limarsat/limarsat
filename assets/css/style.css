@@ -189,6 +189,7 @@ box-shadow:0 15px 40px rgba(0,0,0,.10);
 text-align:center;
 transition:.35s;
 border:1px solid #f1f1f1;
+overflow:hidden;
 }
 
 .card:hover{
@@ -538,6 +539,45 @@ grid-template-columns:1fr;
 
 .map-card iframe{
 height:400px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:40px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.button{
+padding:16px 32px;
+font-size:18px;
+}
+
+.services h2,
+.gallery h2,
+.about h2,
+.contact h2{
+font-size:32px;
+}
+
+.logo img{
+height:55px;
+}
+
+nav ul{
+gap:10px;
+}
+
+nav li{
+margin-left:0;
+}
+
+nav a{
+font-size:15px;
+padding:8px;
 }
 
 }
