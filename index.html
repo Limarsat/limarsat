@@ -357,7 +357,7 @@ Warum Limarsat?
 <p>Nein. Sie können uns jederzeit kontaktieren oder Ihr Gerät einsenden.</p>
 
 </div>
-
+</section>
 <section id="contact" class="contact">
 
 <div class="container">
@@ -436,3 +436,74 @@ allowfullscreen>
 </body>
 
 </html>
+/* ===== CONTACT ===== */
+
+.contact{
+    padding:100px 8%;
+    background:#f7f9fc;
+}
+
+.contact h2{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:15px;
+    color:#1565ff;
+}
+
+.contact-subtitle{
+    text-align:center;
+    color:#666;
+    font-size:20px;
+    margin-bottom:60px;
+}
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:1fr 1.4fr;
+    gap:40px;
+    align-items:stretch;
+}
+
+.contact-card,
+.map-card{
+    background:#fff;
+    border-radius:22px;
+    padding:40px;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+.contact-card h3{
+    color:#1565ff;
+    margin-top:20px;
+    margin-bottom:8px;
+}
+
+.contact-card p{
+    color:#555;
+    line-height:1.8;
+}
+
+.map-card iframe{
+    width:100%;
+    height:100%;
+    min-height:500px;
+    border:0;
+    border-radius:18px;
+}
+
+.contact .button{
+    margin-top:30px;
+    display:inline-block;
+}
+
+@media(max-width:900px){
+
+.contact-grid{
+grid-template-columns:1fr;
+}
+
+.map-card iframe{
+height:400px;
+}
+
+}
