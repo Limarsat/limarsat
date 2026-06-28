@@ -131,24 +131,24 @@ text-align:center;
 color:white;
 padding:20px;
 }
-
 .hero-content{
-
-max-width:850px;
-
-color:white;
-
+max-width:900px;
+margin:auto;
+text-align:center;
 }
 
 .hero h1{
-font-size:58px;
-font-weight:700;
-margin-bottom:20px;
+font-size: 52px;
+line-height: 1.2;
+max-width: 900px;
+margin: 0 auto 20px;
+font-weight: 700;
 }
 
 .hero p{
-font-size:22px;
-margin-bottom:25px;
+font-size: 22px;
+line-height: 1.8;
+margin: 25px 0;
 }
 
 .button{
