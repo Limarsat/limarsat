@@ -643,3 +643,27 @@ transform:scale(1.08);
 #kontakt strong{
     font-size:22px;
 }
+.contact-card form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contact-card input,
+.contact-card textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    font-size:16px;
+    box-sizing:border-box;
+}
+
+.contact-card textarea{
+    resize:vertical;
+    min-height:140px;
+}
+
+.contact-card button{
+    width:100%;
+}
