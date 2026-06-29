@@ -600,3 +600,6 @@ footer{
     opacity:1;
     transform:translateY(0);
 }
+.call-btn{
+    margin-top:auto;
+}
