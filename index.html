@@ -327,15 +327,15 @@ Jetzt anrufen
   <div class="contact-card">
     <h3>✉ Kontaktformular</h3>
 
-    <form>
+   <form action="send.php" method="POST">
 
-        <input type="text" placeholder="Ihr Name" required>
+       <input type="text" name="name" placeholder="Ihr Name" required>
 
-        <input type="email" placeholder="Ihre E-Mail" required>
+        <input type="email" name="email" placeholder="Ihre E-Mail" required>
 
-        <input type="tel" placeholder="Telefon">
+<input type="tel" name="phone" placeholder="Telefon">
 
-        <textarea placeholder="Ihre Nachricht" rows="6"></textarea>
+ <textarea name="message" placeholder="Ihre Nachricht" rows="6" required></textarea>
 
         <button type="submit" class="button">
             Nachricht senden
