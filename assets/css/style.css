@@ -573,9 +573,14 @@ img{
     transition:transform .45s ease;
 }
 
-.contact-card input:hover,
-.contact-card textarea:hover{
-    border-color:#1565ff;
+.contact-card input,
+.contact-card textarea{
+    width:100%;
+    padding:16px;
+    font-size:17px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    margin-bottom:15px;
 }
 
 footer{
