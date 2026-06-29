@@ -616,3 +616,9 @@ footer{
 .services h2{
     margin-top:0;
 }
+#hero,
+#services,
+#about,
+#contact{
+    scroll-margin-top:90px;
+}
