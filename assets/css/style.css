@@ -586,18 +586,6 @@ transform:scale(1.08);
    RESPONSIVE
 =========================== */
 
-@media (max-width:900px){
-
-    .contact-grid{
-        grid-template-columns:1fr;
-    }
-
-    .map-card iframe{
-        height:400px;
-    }
-
-}
-
 @media (max-width:768px){
 
     .hero{
