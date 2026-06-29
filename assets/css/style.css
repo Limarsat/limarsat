@@ -565,18 +565,9 @@ transform:scale(1.08);
     color:#666;
     margin-bottom:45px;
 }
-@media (max-width:900px){
-
-    .contact-grid{
-        grid-template-columns:1fr;
-    }
-
     .map-card{
         grid-column:auto;
-    }
-
-    .map-card iframe{
-        height:350px;
+   
     }
 }
 
