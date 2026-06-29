@@ -589,3 +589,13 @@ img{
 footer{
     border-top:4px solid #1565ff;
 }
+.fade{
+    opacity:0;
+    transform:translateY(40px);
+    transition:all .8s ease;
+}
+
+.fade.show{
+    opacity:1;
+    transform:translateY(0);
+}
