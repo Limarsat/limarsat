@@ -343,12 +343,11 @@ CONTACT
     font-size:20px;
     margin-bottom:50px;
 }
-
 .contact-grid{
     display:grid;
-    grid-template-columns:340px 340px 1fr;
-    gap:25px;
-    align-items:start;
+    grid-template-columns:380px 380px 1fr;
+    gap:30px;
+    align-items:stretch;
 }
 
 .contact-left{
@@ -361,23 +360,30 @@ CONTACT
     display:contents;
 }
 
-.contact-card,
-.map-card{
+.contact-card{
     background:#fff;
+    padding:40px;
     border-radius:20px;
     box-shadow:0 12px 35px rgba(0,0,0,.08);
+    min-height:580px;
+    display:flex;
+    flex-direction:column;
 }
 
 .contact-card{
     padding:30px;
 }
 .map-card{
-    height:100%;
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
+    min-height:580px;
 }
 
 .map-card iframe{
     width:100%;
-    min-height:560px;
+    height:580px;
     border:0;
 }
 /* ===========================
