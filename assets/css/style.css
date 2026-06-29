@@ -571,18 +571,22 @@ img{
 
 .gallery-card img{
     transition:transform .45s ease;
-}
-
 .contact-card input,
 .contact-card textarea{
     width:100%;
-    padding:16px;
-    font-size:17px;
-    border:1px solid #ddd;
-    border-radius:10px;
-    margin-bottom:15px;
+    padding:18px 22px;
+    font-size:22px;
+    font-family:'Poppins',sans-serif;
+    border:2px solid #ddd;
+    border-radius:12px;
+    margin-bottom:18px;
 }
 
+.contact-card input::placeholder,
+.contact-card textarea::placeholder{
+    font-size:22px;
+    color:#777;
+}
 footer{
     border-top:4px solid #1565ff;
 }
