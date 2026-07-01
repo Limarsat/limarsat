@@ -69,7 +69,7 @@ counter.innerText = Math.floor(count) + suffix;
 
                 }else{
 
-                    counter.innerText=target+"+";
+                  counter.innerText = target + suffix;
 
                 }
 
